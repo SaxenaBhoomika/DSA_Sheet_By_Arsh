@@ -24,7 +24,7 @@ public:
             v.push_back(head->val);
             head=head->next;
         }
-        reverse(head.begin(),head.end());
+        reverse(v.begin(),v.end());
         int n=v.size();
         int res=0;
         for(int i=0;i<n;i++){
